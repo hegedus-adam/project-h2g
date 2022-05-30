@@ -6,3 +6,4 @@ Hire 2 Grow mentoring program
 
 - [git](modules/git.md)
 - [html](modules/html.md)
+- [js](modules/js.md)
