@@ -82,7 +82,7 @@ const getConvertedUUIDBlocks = uuid => {
   // your code here
 }
 
-console.log(getUUIDBlocks('f782f011-636a-4d8b-9f63-dc34a4503c01')); // [247, 130, 240, 17, 99, 106, 77, 139, 159, 99, 220, 52, 164, 80, 60, 1]
+console.log(getConvertedUUIDBlocks('f782f011-636a-4d8b-9f63-dc34a4503c01')); // [247, 130, 240, 17, 99, 106, 77, 139, 159, 99, 220, 52, 164, 80, 60, 1]
 ```
 
 ### First duplicate
@@ -99,34 +99,34 @@ console.log(getFirstDuplicate('abc')); // ''
 ### Sum all numbers in an array
 
 ```javascript
-const sum = (array) => {
+const arraySum = (array) => {
   // your code here
 }
 
-console.log(sum([1, 2, 3, 4, 5])); // 15
-console.log(sum([1, 2, 3, 4, '5', null, undefined, NaN, Infinity, true, false, { id: '1' }, 5])); // 15
+console.log(arraySum([1, 2, 3, 4, 5])); // 15
+console.log(arraySum([1, 2, 3, 4, '5', null, undefined, NaN, Infinity, true, false, { id: '1' }, 5])); // 15
 ```
 
 ### Sum all numbers in a nested array
 
 ```javascript
-const sum = (array) => {
+const nestedSum = (array) => {
   // your code here
 }
 
-console.log(sum([1, [2, [[[3]]]], [4, 5]])); // 15
-console.log(sum([1, [2, [3], [4, '5', null, undefined, [NaN, Infinity], [true, false], { id: '1' }, 5]]])); // 15
+console.log(nestedSum([1, [2, [[[3]]]], [4, 5]])); // 15
+console.log(nestedSum([1, [2, [3], [4, '5', null, undefined, [NaN, Infinity], [true, false], { id: '1' }, 5]]])); // 15
 ```
 
 ### Sum all the even numbers in an array
 
 ```javascript
-const sum = (array) => {
+const evenSum = (array) => {
   // your code here
 }
 
-console.log(sum([1, [2, 3], [[4], 5]])); // 6
-console.log(sum([1, [1, 1], [[1], 1]])); // 0
+console.log(evenSum([1, [2, 3], [[4], 5]])); // 6
+console.log(evenSum([1, [1, 1], [[1], 1]])); // 0
 ```
 
 ### Order the elements in the array
@@ -136,11 +136,11 @@ The order should be odd followed by even numbers
 - even numbers should be descending
 
 ```javascript
-const order = (array) => {
+const splitOrder = (array) => {
   // your code here
 }
 
-console.log(order([1, 2, 3, 4, 5, 6, 7, 8, 9, 0])); // [1, 3, 5, 7, 9, 8, 6, 4, 2, 0]
+console.log(splitOrder([1, 2, 3, 4, 5, 6, 7, 8, 9, 0])); // [1, 3, 5, 7, 9, 8, 6, 4, 2, 0]
 
 ```
 
